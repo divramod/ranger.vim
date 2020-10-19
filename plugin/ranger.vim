@@ -136,7 +136,6 @@ if exists('g:ranger_replace_netrw') && g:ranger_replace_netrw
   augroup END
 endif
 
-if !exists('g:ranger_map_keys') || g:ranger_map_keys
-  map <leader>f :Ranger<CR>
-endif
-
+" if !exists('g:ranger_map_keys') || g:ranger_map_keys
+  " map <leader>f :Ranger<CR>
+" endif
